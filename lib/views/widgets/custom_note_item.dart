@@ -30,7 +30,6 @@ class NoteItem extends StatelessWidget {
                   color:Colors.black.withOpacity(.4)),),
             )
           ]
-
       ),
     );
   }
