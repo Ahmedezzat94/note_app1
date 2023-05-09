@@ -31,7 +31,6 @@ class NoteItem extends StatelessWidget {
             )
           ]
       ),
-
     );
   }
 }
