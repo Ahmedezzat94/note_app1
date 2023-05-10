@@ -10,7 +10,7 @@ class NoteItem extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(builder: (context){
-              return EditNoteView();
+              return const EditNoteView();
             }
             )
         );
@@ -29,7 +29,7 @@ class NoteItem extends StatelessWidget {
                 TextStyle(color:Colors.black,fontSize:26),),
                 subtitle:Padding(
                   padding: const EdgeInsets.only(top:16,bottom:16),
-                  child: Text("Build your career with tharwat samy",style:
+                  child: Text("Build your career with samy's app",style:
                   TextStyle(color:Colors.black.withOpacity(.5),fontSize:20)),
                 ),
                 trailing:IconButton(onPressed: () {  },
